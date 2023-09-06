@@ -27,6 +27,7 @@
       media="screen and (max-device-width: 767px)"
     />
     <title>Color Flipper | JS Projects</title>
+    <script type="module" src="./js/index.js" defer></script>
   </head>
   <body>
     <div id="app">
@@ -36,7 +37,12 @@
       </header>
       <main>
         <h1>Background color : <span id="current-color"></span></h1>
-        <button type="button" title="Change background color" autofocus>
+        <button
+          id="change-color-button"
+          type="button"
+          title="Change background color"
+          autofocus
+        >
           Click me
         </button>
       </main>

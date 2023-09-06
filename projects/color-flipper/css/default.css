@@ -6,6 +6,7 @@
 header {
   position: fixed;
   top: 0;
+  background-color: #fff;
   justify-content: space-evenly;
   width: 100%;
   text-align: center;
@@ -31,7 +32,8 @@ main button {
 }
 
 main h1 {
-  background-color: rgb(34, 30, 30);
+  background-color: black;
+  font-size: 2rem;
   color: #fff;
   padding: 0.2rem 1rem;
 }
@@ -44,6 +46,7 @@ main button {
   padding: 0.8rem 2rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: 2px solid black;
   cursor: pointer;
   transition: transform 0.2s ease-out;
 }

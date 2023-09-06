@@ -12,7 +12,7 @@ Here's the list of the projects and their status of implementation:
 
 ### Vanilla JavaScript Projects
 
-- Color Flipper: _to be done_;
+- Color Flipper: **done**;
 - Counter: _to be done_;
 - Review carousel: _to be done_;
 - Responsive navbar: _to be done_;
