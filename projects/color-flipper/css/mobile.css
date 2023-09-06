@@ -1,0 +1,18 @@
+body {
+  font-size: 1.2rem;
+}
+
+header {
+  flex-direction: column;
+}
+
+main h1 {
+  font-size: clamp(0.8rem, 0.34rem + 2.6283vw, 1.6rem);
+  padding: clamp(0.6rem, 0.255rem + 1.9713vw, 1.2rem)
+    clamp(0.4rem, 0.17rem + 1.3142vw, 0.8rem);
+}
+
+main button {
+  padding: clamp(0.4rem, 0.17rem + 1.3142vw, 0.8rem)
+    clamp(1.2rem, 0.74rem + 2.6283vw, 2rem);
+}
