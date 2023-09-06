@@ -61,7 +61,7 @@ Here's the list of the projects and their status of implementation:
 
 ## License
 
-Distributed under MIT license. Check out [LICENSE](https://github.com/eddyyxxyy/js-challenges/blob/main/LICENSE) for more information.
+Distributed under MIT license. Check out [LICENSE](https://github.com/eddyyxxyy/js-challenges/blob/main/LICENSE.md) for more information.
 
 ## Meta
 
