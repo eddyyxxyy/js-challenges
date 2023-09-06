@@ -12,6 +12,11 @@ main h1 {
     clamp(0.4rem, 0.17rem + 1.3142vw, 0.8rem);
 }
 
+h1 span {
+  display: block;
+  text-align: center;
+}
+
 main button {
   padding: clamp(0.4rem, 0.17rem + 1.3142vw, 0.8rem)
     clamp(1.2rem, 0.74rem + 2.6283vw, 2rem);
