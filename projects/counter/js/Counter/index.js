@@ -45,7 +45,7 @@ export default class Counter {
     });
   }
 
-  displayLastInteraction() {
+  changeDisplayIfLastInteraction() {
     if (this.counterState.end) {
       this.counterState = {
         ...this.counterState,
@@ -55,9 +55,13 @@ export default class Counter {
   }
 
   loadLastInteraction() {
-    const { end } = JSON.parse(window.localStorage.getItem("@counter:"));
-    this.counterState = { ...this.counterState, value: end };
-    this.displayLastInteraction();
+    try {
+      const { end } = JSON.parse(window.localStorage.getItem("@counter:"));
+      this.counterState = { ...this.counterState, value: end };
+    } catch (error) {}
+    if (this.counterState.end) {
+      this.changeDisplayIfLastInteraction();
+    }
   }
 
   saveInteraction() {
