@@ -12,8 +12,8 @@ Here's the list of the projects and their status of implementation:
 
 ### Vanilla JavaScript Projects
 
-- Color Flipper: **done**;
-- Counter: **done**;
+- [Color Flipper](https://eddyyxxyy-color-flipper.netlify.app/): **done**;
+- [Counter](https://eddyyxxyy-counter.netlify.app/): **done**;
 - Review carousel: _to be done_;
 - Responsive navbar: _to be done_;
 - Sidebar: _to be done_;
