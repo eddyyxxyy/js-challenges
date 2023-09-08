@@ -26,27 +26,42 @@ h2 {
 hr {
   max-width: 20%;
   height: 0;
-  border: .2rem solid var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
   border-radius: 4rem;
-  margin: 0 auto 2rem;
+  margin: 0 auto 5rem;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 768px;
   background-color: #fff;
   padding: 2.4rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-wrapper {
+  position: relative;
   max-width: 16rem;
   margin: 0 auto 1.6rem;
+  animation: fade-appear 0.75s ease-in forwards;
 }
 
 img {
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
+  aspect-ratio: 1 / 1;
+  box-shadow: 1rem -0.4rem var(--secondary-color);
+}
+
+#img-decoration-quote {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
   aspect-ratio: 1 / 1;
 }
 
@@ -58,8 +73,14 @@ p {
   color: var(--text-color);
 }
 
+.name,
+.job,
+.review {
+  animation: fade-down-appear 1s ease-in forwards;
+}
+
 .name {
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
 }
 
 .job {
@@ -69,6 +90,10 @@ p {
 
 .review {
   margin-bottom: 1.4rem;
+}
+
+.btn-controls {
+  animation: fade-appear 0.75s ease-in forwards;
 }
 
 .next-prev {
@@ -84,6 +109,13 @@ p {
   background: none;
   border: none;
   cursor: pointer;
+  transition: background 0.2s ease-out;
+}
+
+.next-prev button:is(:hover, :focus) {
+  background: var(--tertiary-color);
+  border-radius: 50%;
+  outline: 0.2rem solid var(--secondary-color);
 }
 
 svg {
@@ -92,5 +124,31 @@ svg {
 
 .btn-controls #surprise-me {
   background-color: var(--tertiary-color);
-  border: .2rem solid ;
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  border-top: 0.2rem solid var(--secondary-color);
+  border-right: 0.2rem solid var(--primary-color);
+  border-bottom: 0.2rem solid var(--primary-color);
+  border-left: 0.2rem solid var(--secondary-color);
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+.btn-controls #surprise-me:is(:hover, :focus) {
+  transform: scale(1.1);
+}
+
+@keyframes fade-appear {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-down-appear {
+  0% {
+    transform: translateY(-0.4rem);
+    opacity: 0;
+  }
 }

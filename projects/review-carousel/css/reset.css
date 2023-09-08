@@ -1,4 +1,6 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,7 +10,7 @@
   font-size: clamp(30%, 1% + 2vw, 62.5%);
   --app-bg: hsl(208, 100%, 97%);
   --primary-color: hsl(201, 100%, 36%);
-  --secondary-color: hsl(202, 100%, 39%);
+  --secondary-color: hsl(202, 66%, 49%);
   --tertiary-color: hsl(208, 100%, 97%);
   --text-highlight-color: hsl(239, 76%, 11%);
   --text-color: hsl(240, 20%, 43%);
@@ -16,6 +18,6 @@
 
 body {
   height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
