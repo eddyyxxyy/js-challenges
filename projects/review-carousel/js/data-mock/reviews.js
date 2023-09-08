@@ -13,7 +13,7 @@ export default [
     name: "Isabela Gavillan",
     job: "Web Designer",
     review:
-      "Curabitur congue consectetur egestas. Suspendisse potenti. Aenean ornare nisi ex, a semper odio tristique sed. Nunc nibh odio, accumsan eget nisi id, viverra dictum urna. Sed tortor mi, convallis efficitur dui nec, rhoncus hendrerit mauris. In euismod consequat dapibus. Donec dui dolor, vulputate at neque sed, sollicitudin dictum risus. In ullamcorper mauris sollicitudin risus iaculis tincidunt. Suspendisse condimentum risus neque, nec bibendum arcu dictum quis. Praesent vulputate purus eget neque dapibus vestibulum. Curabitur suscipit nec ligula eget ullamcorper. Fusce quis libero vehicula velit dignissim ullamcorper. In sagittis vehicula scelerisque. Suspendisse eleifend auctor arcu eget luctus.",
+      "Praesent vulputate purus eget neque dapibus vestibulum. Curabitur suscipit nec ligula eget ullamcorper. Fusce quis libero vehicula velit dignissim ullamcorper. In sagittis vehicula scelerisque. Suspendisse eleifend auctor arcu eget luctus.",
   },
   {
     id: 3,

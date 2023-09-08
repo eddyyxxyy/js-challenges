@@ -20,6 +20,7 @@
     ></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/default.css" />
+    <script type="module" src="./js/index.js" defer></script>
   </head>
   <body>
     <div id="app">
@@ -29,25 +30,7 @@
       </header>
       <main>
         <article class="container">
-          <div class="img-wrapper">
-            <i
-              id="img-decoration-quote"
-              class="fa-solid fa-quote-right fa-lg"
-            ></i>
-            <img
-              id="avatar"
-              src="./assets/img/person-1.webp"
-              alt="person-1 profile pic"
-            />
-          </div>
-          <h2 class="name">Edward Mills</h2>
-          <p class="job">Web Developer</p>
-          <p class="review">
-            Nam tempus nunc eu dui egestas, sit amet vehicula neque feugiat.
-            Maecenas non aliquet est. Duis diam felis, imperdiet non turpis et,
-            pellentesque efficitur urna. Aliquam turpis tellus, congue vitae
-            ipsum quis, porttitor facilisis metus.
-          </p>
+          <div id="review"></div>
           <div class="btn-controls">
             <div class="next-prev">
               <button type="button" id="prev" title="Previous review">
