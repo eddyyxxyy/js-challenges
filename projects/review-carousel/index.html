@@ -8,15 +8,25 @@
       content="App that displays hypothetical user reviews in a carousel"
     />
     <title>Review Carousel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/479643ada8.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/default.css" />
   </head>
   <body>
     <div id="app">
-      <header><h1>Our Reviews</h1></header>
+      <header>
+        <h1>Our Reviews</h1>
+        <hr />
+      </header>
       <main>
         <article class="container">
           <div class="img-wrapper">
@@ -26,7 +36,7 @@
               alt="person-1 profile pic"
             />
           </div>
-          <h2 id="name">Edward Mills</h2>
+          <h2 class="name">Edward Mills</h2>
           <p class="job">Web Developer</p>
           <p class="review">
             Nam tempus nunc eu dui egestas, sit amet vehicula neque feugiat.
@@ -34,6 +44,19 @@
             pellentesque efficitur urna. Aliquam turpis tellus, congue vitae
             ipsum quis, porttitor facilisis metus.
           </p>
+          <div class="btn-controls">
+            <div class="next-prev">
+              <button type="button" id="prev" title="Previous review">
+                <i class="fa-solid fa-chevron-left fa-lg"></i>
+              </button>
+              <button type="button" id="next" title="Next review">
+                <i class="fa-solid fa-chevron-right fa-lg"></i>
+              </button>
+            </div>
+            <button type="button" id="surprise-me" title="Show random review">
+              Surprise Me
+            </button>
+          </div>
         </article>
       </main>
     </div>

@@ -1,0 +1,96 @@
+#app {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background-color: var(--app-bg);
+  text-align: center;
+  padding: 0 2.4rem;
+}
+
+h1,
+.name,
+.job,
+button {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h1,
+h2 {
+  color: var(--text-highlight-color);
+}
+
+hr {
+  max-width: 20%;
+  height: 0;
+  border: .2rem solid var(--primary-color);
+  border-radius: 4rem;
+  margin: 0 auto 2rem;
+}
+
+.container {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: .8rem;
+}
+
+.img-wrapper {
+  max-width: 16rem;
+  margin: 0 auto 1.6rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  color: var(--text-color);
+}
+
+.name {
+  letter-spacing: .3rem;
+}
+
+.job {
+  color: var(--secondary-color);
+  margin-bottom: 1.4rem;
+}
+
+.review {
+  margin-bottom: 1.4rem;
+}
+
+.next-prev {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.next-prev button {
+  height: 3rem;
+  width: 3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+svg {
+  color: var(--secondary-color);
+}
+
+.btn-controls #surprise-me {
+  background-color: var(--tertiary-color);
+  border: .2rem solid ;
+}
