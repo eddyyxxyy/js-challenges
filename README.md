@@ -12,9 +12,9 @@ Here's the list of the projects and their status of implementation:
 
 ### Vanilla JavaScript Projects
 
-- [Color Flipper](https://eddyyxxyy-color-flipper.netlify.app/): **done**;
-- [Counter](https://eddyyxxyy-counter.netlify.app/): **done**;
-- Review carousel: _to be done_;
+- [Color Flipper](https://eddyyxxyy-color-flipper.netlify.app/): **DONE**;
+- [Counter](https://eddyyxxyy-counter.netlify.app/): **DONE**;
+- [Review Carousel](https://eddyyxxyy-review-carousel.netlify.app/): **DONE**;
 - Responsive navbar: _to be done_;
 - Sidebar: _to be done_;
 - Modal: _to be done_;
