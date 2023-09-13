@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+  --body-bg-color: #b9b9b9;
+  --primary-color: #54b3ca;
+  --menu-text-color: #4b4b4b;
+}
+
+body,
+button {
+  font-family: 'Lato', serif;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  height: 100vh;
+  font-size: 1.6rem;
+}
