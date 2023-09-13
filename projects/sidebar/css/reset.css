@@ -7,7 +7,8 @@
 :root {
   font-size: clamp(40%, 1% + 2vw, 62.5%);
   --body-bg-color: #b9b9b9;
-  --primary-color: #54b3ca;
+  --aside-bg-color: #fff;
+  --primary-color: #498fa0;
   --menu-text-color: #4b4b4b;
 }
 
@@ -20,4 +21,9 @@ body {
   background-color: var(--body-bg-color);
   height: 100vh;
   font-size: 1.6rem;
+}
+
+button {
+  background: none;
+  border: none;
 }

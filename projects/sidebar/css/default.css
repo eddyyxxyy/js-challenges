@@ -1,0 +1,112 @@
+.toggle-side-menu {
+  position: absolute;
+  top: 2.4rem;
+  right: 2.4rem;
+  cursor: pointer;
+}
+
+.toggle-side-menu svg {
+  height: 2.4rem;
+  transition: all 0.25s ease-in-out;
+  color: var(--primary-color);
+}
+
+.toggle-side-menu:hover svg,
+.toggle-side-menu:focus svg {
+  filter: brightness(1.2);
+  transform: rotate(90deg);
+}
+
+aside {
+  position: relative;
+  width: 0%;
+  max-width: 40rem;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--aside-bg-color);
+  transition: all 0.25s linear;
+}
+
+aside.show-side-menu {
+  padding: 2.4rem;
+  width: 100%;
+}
+
+.close-side-menu-button {
+  position: absolute;
+  top: 2rem;
+  right: 2.4rem;
+  cursor: pointer;
+}
+
+.close-side-menu-button svg {
+  height: 1.4rem;
+  padding-bottom: 0.25 rem;
+  color: var(--primary-color);
+  transition: all 0.25s linear;
+}
+
+.close-side-menu-button:hover svg,
+.close-side-menu-button:focus svg {
+  transform: scale(1.1);
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+
+.logo {
+  max-width: 75%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+aside ul {
+  display: flex;
+  gap: 1.4rem;
+  margin-top: 1.4rem;
+  list-style: none;
+}
+
+.links {
+  flex-direction: column;
+}
+
+.links a,
+.socials a {
+  text-decoration: none;
+  transition: all 0.25s linear;
+}
+
+.links a {
+  font-size: 2.4rem;
+  color: var(--menu-text-color);
+}
+
+.links a:hover,
+.links a:focus {
+  color: var(--primary-color);
+  filter: brightness(1.1);
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+
+.socials {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.socials a {
+  color: var(--primary-color);
+  filter: brightness(0.8);
+}
+
+.socials a svg {
+  min-height: 3.2rem;
+}
+
+.socials a:hover,
+.socials a:focus {
+  filter: brightness(1.1);
+  transform: scale(1.1);
+}
