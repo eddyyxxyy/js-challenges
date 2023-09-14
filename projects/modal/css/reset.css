@@ -8,11 +8,29 @@
   font-size: clamp(31.5%, 1% + 2vw, 61.5%);
   --main-bg: #fff;
   --modal-backdrop: #148dc57e;
-  --text-color: #0f0a30;
+  --button-bg-color: #148dc57e;
+  --text-color: #130d3f;
 }
 
 body {
   height: 100vh;
+  display: grid;
+  place-content: center;
   background: url(../assets/hero.jpeg) no-repeat center / cover;
   font-size: 1.6rem;
+}
+
+body,
+button {
+  font-family: 'Lato', serif;
+}
+
+button {
+  transition: all 0.25s ease-in-out;
+}
+
+button:hover,
+button:focus {
+  filter: brightness(1.1);
+  scale: 1.05;
 }

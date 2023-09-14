@@ -1,0 +1,74 @@
+main {
+  display: grid;
+  row-gap: 4rem;
+  background-color: var(--main-bg);
+  padding: clamp(4rem, 7.5vw, 9rem) clamp(8rem, 15vw, 18rem);
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h1,
+button {
+  color: var(--text-color);
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+main button {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--button-bg-color);
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.modal-wrapper {
+  display: none;
+}
+
+.modal-wrapper.dialog-open {
+  display: block;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(0.8rem);
+}
+
+dialog {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-content: center;
+  padding: clamp(4rem, 7.5vw, 9rem);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+dialog button {
+  position: absolute;
+  top: 1rem;
+  right: 1.4rem;
+  font-size: 2.4rem;
+  background: none;
+  color: red;
+}
+
+dialog p {
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
