@@ -17,7 +17,7 @@ Here's the list of the projects and their status of implementation:
 - [Review Carousel](https://eddyyxxyy-review-carousel.netlify.app/): **DONE**;
 - [Responsive navbar](https://eddyyxxyy-responsive-navbar.netlify.app/): **DONE**;
 - [Sidebar](https://eddyyxxyy-sidebar.netlify.app/): **DONE**;
-- Modal: _to be done_;
+- [Modal](https://eddyyxxyy-modal.netlify.app/): **DONE**;
 - FAQ page: _to be done_;
 - Restaurant menu page: _to be done_;
 - Video background: _to be done_;
