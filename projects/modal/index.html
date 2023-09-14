@@ -20,17 +20,18 @@
       src="https://kit.fontawesome.com/479643ada8.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="./js/index.js" defer></script>
   </head>
   <body>
     <main>
       <h1>Modal Project</h1>
-      <button>
+      <button id="open-modal">
         <i class="fa-regular fa-comment-dots"></i>
         Open Modal
       </button>
     </main>
     <div class="modal-wrapper">
-      <dialog>
+      <dialog id="modal">
         <form>
           <button type="button" formmethod="dialog" title="Close modal">
             <i class="fa-solid fa-xmark"></i>
