@@ -1,4 +1,4 @@
-#app {
+#faq {
   height: 100vh;
   display: grid;
   grid-template-rows: 6rem auto;
@@ -37,6 +37,7 @@ main {
   border-radius: 0.8rem;
   margin-bottom: 1.2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: fade-appear 1s ease forwards;
 }
 
 .faq-item-header {
@@ -76,16 +77,68 @@ main {
   text-align: justify;
   line-height: 1.4rem;
   padding: 1rem 0;
-  transition: max-height 0.25s ease-in;
+  transition: max-height 0.5s ease-in;
 }
 
-.faq-item-content.faq-item-show-content {
+.faq-item-show-content .faq-item-content {
   position: initial;
   max-height: 15rem;
   width: 100%;
   border-top: 0.1rem solid var(--primary-color);
+  animation: fade-appear 1s linear forwards;
 }
 
-button.hide {
+button.hide-answer {
   display: none;
+}
+
+.faq-item-show-content button.hide-answer {
+  display: block;
+}
+
+.faq-item-show-content button.show-answer {
+  display: none;
+}
+
+@keyframes fade-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #faq {
+    grid-template-rows: 10rem auto;
+  }
+
+  main {
+    max-width: 1440px;
+  }
+
+  .faq-item {
+    width: 70rem;
+    max-width: 60rem;
+  }
+
+  header h1 {
+    font-size: 6rem;
+  }
+
+  .faq-item-header h2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .faq-item-header button {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+
+  .faq-item-content {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
 }
