@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+  --app-bg-color: #edf7f6;
+  --primary-color: #f19953;
+  --faq-show-button-color: #2660a4;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--app-bg-color);
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.6rem;
+}
