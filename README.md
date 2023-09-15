@@ -18,7 +18,7 @@ Here's the list of the projects and their status of implementation:
 - [Responsive navbar](https://eddyyxxyy-responsive-navbar.netlify.app/): **DONE**;
 - [Sidebar](https://eddyyxxyy-sidebar.netlify.app/): **DONE**;
 - [Modal](https://eddyyxxyy-modal.netlify.app/): **DONE**;
-- FAQ page: _to be done_;
+- [FAQ page](https://eddyyxxyy-faq-page.netlify.app/): **DONE**;
 - Restaurant menu page: _to be done_;
 - Video background: _to be done_;
 - Navigation bar on scroll: _to be done_;
