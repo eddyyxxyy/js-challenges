@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+  --app-bg-color: #cef6fd;
+  --primary-color: #e9ba3a;
+  --text-color: #0d0630;
+  --gray-color: #4b4b4b;
+}
+
+.light {
+  --app-bg-color: #0d0630;
+  --text-color: #cef6fd;
+  --gray-color: #858585;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body,
+button {
+  font-family: 'Roboto', sans-serif;
+}
