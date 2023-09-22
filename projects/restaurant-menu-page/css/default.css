@@ -1,0 +1,43 @@
+#our-menu {
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 20rem auto;
+  grid-template-areas: 'menu-header' 'content';
+
+  background-color: var(--app-bg-color);
+
+  color: var(--text-color);
+}
+
+.menu-header {
+  grid-area: menu-header;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header h2 {
+  font-weight: 700;
+  font-size: 4rem;
+
+  border-bottom: 0.3rem solid var(--primary-color);
+}
+
+.menu-filters {
+  list-style: none;
+
+  display: flex;
+}
+
+.menu-header,
+.menu-filters {
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.menu-items {
+  grid-area: content;
+}

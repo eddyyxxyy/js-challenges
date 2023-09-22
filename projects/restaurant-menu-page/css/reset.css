@@ -6,7 +6,7 @@
 
 :root {
   font-size: clamp(40%, 1% + 2vw, 62.5%);
-  --app-bg-color: #cef6fd;
+  --app-bg-color: #e7f3f5;
   --primary-color: #e9ba3a;
   --text-color: #0d0630;
   --gray-color: #4b4b4b;
