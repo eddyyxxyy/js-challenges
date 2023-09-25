@@ -16,10 +16,22 @@
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/default.css" />
+    <script
+      src="https://kit.fontawesome.com/479643ada8.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./js/main.js" defer></script>
   </head>
   <body>
     <div id="root">
+      <aside>
+        <button id="dark-toggle" type="button" title="Switch to dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="light-toggle" type="button" title="Switch to light mode">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </aside>
       <main id="our-menu">
         <section class="menu-header">
           <h2>Our Menu</h2>
@@ -28,44 +40,9 @@
             <li><button type="button">Breakfast</button></li>
             <li><button type="button">Lunch</button></li>
             <li><button type="button">Shakes</button></li>
-            <li><button type="button">Dinner</button></li>
           </ul>
         </section>
-        <section class="menu-items">
-          <article class="menu-item">
-            <img src="./assets/item-1.jpeg" alt="" />
-            <h3>Buttermilk Pancakes</h3>
-            <p>
-              Exercitation consequat enim exercitation nulla exercitation do
-              adipisicing ea voluptate. Minim aliqua aliqua excepteur aliqua
-              adipisicing culpa laborum in consequat. Velit mollit culpa aute
-              est qui. Excepteur proident mollit eu est. Officia aliqua laboris
-              do id occaecat est mollit id reprehenderit ullamco nulla sint sit
-              sint.
-            </p>
-          </article>
-          <article class="menu-item">
-            <img src="./assets/item-2.jpeg" alt="" />
-            <h3>Dinner Double</h3>
-            <p>
-              Laborum in consequat. Velit mollit culpa aute est qui. Excepteur
-              proident mollit eu est. Officia aliqua laboris do id occaecat est
-              mollit id reprehenderit ullamco nulla sint sit sint.
-            </p>
-          </article>
-          <article class="menu-item">
-            <img src="./assets/item-3.jpeg" alt="" />
-            <h3>Godzilla Milkshake</h3>
-            <p>
-              Cupidatat ipsum sunt esse laboris nulla duis veniam in cupidatat
-              sunt veniam enim aliquip. Cillum id laborum exercitation sunt
-              eiusmod. Officia nulla nisi mollit proident occaecat dolor ut ea
-              ea nulla. Esse et non cillum qui occaecat commodo voluptate mollit
-              et. Fugiat adipisicing aliquip enim nulla deserunt sit non cillum
-              dolore non tempor.
-            </p>
-          </article>
-        </section>
+        <section class="menu-items"></section>
       </main>
     </div>
   </body>

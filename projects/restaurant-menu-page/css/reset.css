@@ -7,15 +7,18 @@
 :root {
   font-size: clamp(40%, 1% + 2vw, 62.5%);
   --app-bg-color: #e7f3f5;
-  --primary-color: #e9ba3a;
+  --primary-color: #c29929;
   --text-color: #0d0630;
-  --gray-color: #4b4b4b;
+  --gray-color: #a1a1a1;
+  --darker-gray-color: #313131;
 }
 
-.light {
+.dark {
   --app-bg-color: #0d0630;
+  --primary-color: #3a86e9;
   --text-color: #cef6fd;
-  --gray-color: #858585;
+  --gray-color: #4141415d;
+  --darker-gray-color: #ffffff;
 }
 
 body {
@@ -25,4 +28,16 @@ body {
 body,
 button {
   font-family: 'Roboto', sans-serif;
+}
+
+button,
+a {
+  transition: filter 0.2s ease-out;
+}
+
+button:hover,
+button:hover,
+a:hover,
+a:focus {
+  filter: brightness(0.8);
 }
