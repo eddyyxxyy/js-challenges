@@ -19,7 +19,7 @@ Here's the list of the projects and their status of implementation:
 - [Sidebar](https://eddyyxxyy-sidebar.netlify.app/): **DONE**;
 - [Modal](https://eddyyxxyy-modal.netlify.app/): **DONE**;
 - [FAQ page](https://eddyyxxyy-faq-page.netlify.app/): **DONE**;
-- Restaurant menu page: _to be done_;
+- [Restaurant menu page](https://eddyyxxyy-restaurant-menu-page.netlify.app/): **DONE**;
 - Video background: _to be done_;
 - Navigation bar on scroll: _to be done_;
 - Tabs that display different content: _to be done_;
